@@ -1,18 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamim Albahussein SV</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Tamim | CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My SV</h1>
-    <svg width="150" height="200" xmlns="http://www.w3.org/2000/svg">
-        <image href="123.jpeg" height="200"/>
-    </svg>
-    <h2>About Me</h2>
-    <p>My name is Tamim Albahussein, and I am a student at shaqra university. I am passionate about technology and programming, and I am currently pursuing a degree in Computer Science. I enjoy learning new programming languages and working on various projects to enhance my skills.</p>
-    
+    <nav class="no-print">
+        <button id="lang-toggle">العربية</button>
+        <button id="theme-toggle">🌓</button>
+        <button onclick="window.print()">PDF</button>
+    </nav>
+
+    <header>
+    <div class="profile-pic-container">
+        <img src="profile.jpg" alt="Tamim Albahussein" class="profile-pic">
+    </div>
+    <div class="contact-links">
+    <a href="https://www.linkedin.com/in/tamim-albahussein-a3290333a/" target="_blank" class="linkedin-link">
+        <span data-key="linkedin">View LinkedIn Profile</span>
+    </a>
+</div>
+    <h1 data-key="name">TAMIM ALBAHUSSEIN</h1>
+    <p class="subtitle" data-key="title">Computer Science Student | Web Developer</p>
+    </header>
+
+    <main>
+        <section>
+            <h2 data-key="about-title">Professional Summary</h2>
+            <p data-key="about-text">Focused Computer Science student with expertise in Web Development and Cybersecurity.</p>
+        </section>
+
+        <section>
+            <h2 data-key="skills-title">Technical Skills</h2>
+            <ul class="skills-list">
+                <li data-key="skill-1">HTML5 & CSS3 (Semantic & Responsive)</li>
+                <li data-key="skill-2">JavaScript (Vanilla ES6+)</li>
+                <li data-key="skill-3">Digital Forensics & Cloud Security</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
