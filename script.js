@@ -9,7 +9,10 @@ const translations = {
         "skills-title": "Technical Skills",
         "skill-1": "HTML5 & CSS3 (Semantic & Responsive)",
         "skill-2": "JavaScript (Vanilla ES6+)",
-        "skill-3": "Digital Forensics & Cloud Security",
+        "skill-3": "Beginner in Digital Forensics & Cloud Security",
+        "certificates-title": "Certificates",
+        "cert-1": "Cloud Security",
+        "cert-2": "HTML Essentials",
         btn: "العربية"
     },
     ar: {
@@ -21,7 +24,10 @@ const translations = {
         "skills-title": "المهارات التقنية",
         "skill-1": "HTML5 و CSS3 (بناء هيكلي واستجابة)",
         "skill-2": "جاوا سكريبت (Vanilla ES6+)",
-        "skill-3": "التحقيق الجنائي الرقمي وأمن السحاب",
+        "skill-3": "مبتدئ في التحقيق الجنائي الرقمي وأمن السحابة",
+        "certificates-title": "الشهادات",
+        "cert-1": "أمن السحابة",
+        "cert-2": "أساسيات HTML",
         btn: "English"
     }
 };
